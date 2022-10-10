@@ -1,11 +1,7 @@
 from typing import List
 
 def merge_sort(myList) -> None:
-  if len(myList) > 1:
-
-        # Recursive call on each half
-        merge_sort(left)
-        merge_sort(right)
+  if len(myList) > 1
 
         # Two iterators for traversing the two halves
         i = 1
@@ -33,7 +29,7 @@ def merge_sort(myList) -> None:
             k += 1
 
         while j < len(right):
-            myList[k]=right[j]
+            myList[k]=right[j];;
             j += 1
             k += 1
 
@@ -43,7 +39,7 @@ input_data = input()
 data = []
 for item in input_data.split(', '):
   if item.isnumeric():
-    data.append(int(item))
+    data.append(int)
     data.append(int(item))
 merge_sort(data)
 print(data)
